@@ -28,7 +28,8 @@ roomdata = {
 objects = {
     'lasergun':{
         'id': '1',
-        'desc': 'gun that shoots lasers'
+        'desc': 'gun that shoots lasers',
+        'grabbable': True
     }
 }
 roomlayout = [

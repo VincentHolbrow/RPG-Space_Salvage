@@ -1,4 +1,3 @@
-import maph
 from mapdata import *
 
 directions = ['north','n','south','s','east','e','west','w']
@@ -16,7 +15,7 @@ def player_action(maph):
         quit()
 
     elif response == 'i' or response == 'inspect':
-        inspectobj = input('Inspect what?')
+        inspectobj = input('Inspect what?\n')
         try:
             if objects[inspectobj]['id'] in roomlayout[maph.pos[1]][maph.pos[0]]:
                 print (objects[inspectobj]['desc'])
